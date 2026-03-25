@@ -53,8 +53,7 @@ header li a { font-size: 20px; padding: 10px; }
 /* CONTENITORE PRINCIPALE  */
 /* Spazio interno attorno al contenuto della pagina */
 .container {
-     padding: 10px;
-     
+     padding: 10px;   
 } 
 
 /* COVER PRINCIPALE */
@@ -62,7 +61,7 @@ header li a { font-size: 20px; padding: 10px; }
 .cover { position: relative; border-bottom: 10px solid #c9a96e; }
 
 /* Cover sovrapposta a aal cover principale */
-.cover__int {
+.cover-int {
     background-color: #394f122c; /* sfondo semi-trasparente */
     position: absolute; /* si sovrappone all'immagine */
     bottom: 0; /* ancorato in basso */
@@ -91,7 +90,7 @@ header li a { font-size: 20px; padding: 10px; }
 }   
 
 /* Cover sovrapposta alla cover_small */
-.cover_small__int {
+.cover_small-int {
     background-color: #334a3238; /* sfondo semi-trasparente */
     position: absolute; /* si sovrappone all'immagine */
     bottom: 0;
@@ -109,15 +108,15 @@ header li a { font-size: 20px; padding: 10px; }
 
 /* GRIGLIA A DUE COLONNE */
 /* Ogni riga della pagina sostenibilità: testo + immagine affiancati */
-.grid_2 { display: flex; gap: 40px; margin-bottom: 60px; padding: 20px; }
-.grid_2 > div { flex: 1; } /* ogni figlio occupa metà spazio */
-.grid_2 img { width: 100%; height: auto; } /* immagine adattiva */
-.grid_2 p { font-size: 20px; line-height: 1.4; }
+.grid-int-sost { display: flex; gap: 40px; margin-bottom: 60px; padding: 20px; }
+.grid-int-sost > div { flex: 1; } /* ogni figlio occupa metà spazio */
+.grid-int-sost img { width: 100%; height: auto; } /* immagine adattiva */
+.grid-int-sost p { font-size: 20px; line-height: 1.4; }
 
 /* Sfondo alternato per le righe della pagina sostenibilità */
-.grid_2:nth-child(odd)  { background-color: #6f9d5db9; } /* righe dispari  */
-.grid_2:nth-child(even) { background-color: #5b7660b0; } /* righe pari */
-.grid_2 {border-radius: 8px;} /* angoli arrotondati */
+.grid-int-sost:nth-child(odd)  { background-color: #6f9d5db9; } /* righe dispari  */
+.grid-int-sost:nth-child(even) { background-color: #5b7660b0; } /* righe pari */
+.grid-int-sost {border-radius: 8px;} /* angoli arrotondati */
 
 
 /* BOTTONE */
@@ -159,9 +158,9 @@ footer p { color: #fff; }
     footer p,a { color: #fff; font-size: 16px;}
 
     /*Gestione Mobile per pagina sostenibilità*/
-    .cover_small__int h1 { font-size: 22px; } /* titolo cover interno ridotto */
-    .cover_small__int h2 { font-size: 18px; } /* sottotitolo cover ridotto */
-    .grid_2 { display: block; } /* colonne in verticale */
+    .cover_small-int h1 { font-size: 22px; } /* titolo cover interno ridotto */
+    .cover_small-int h2 { font-size: 18px; } /* sottotitolo cover ridotto */
+    .grid-int-sost { display: block; } /* colonne in verticale */
 
 }
 
@@ -182,5 +181,5 @@ footer p { color: #fff; }
     .logo { font-size: 45px; } /* logo più grande */
     h2, h3 { font-size: 35px; } /* titoli più grandi */
     header li a { font-size: 35px; } /* menu più grande */
-    .grid_2 p { font-size: 25px; line-height: 1.4; } /* testo sostenibilità più grande */
+    .grid-int-sost p { font-size: 25px; line-height: 1.4; } /* testo sostenibilità più grande */
 }
