@@ -65,7 +65,7 @@ header li a { font-size: 20px; padding: 10px; }
 .cover { position: relative; border-bottom: 10px solid #c9a96e; }
 
 
-/* Cover sovrapposta a aal cover principale */
+/* Cover sovrapposta alla cover principale */
 .cover-int {
     background-color: #394f122c; /* sfondo semi-trasparente */
     position: absolute; /* si sovrappone all'immagine */
